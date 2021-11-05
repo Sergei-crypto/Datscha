@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GartenLaube</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@300;400&display=swap');
+    </style>
+    <link type="image/x-icon" rel="shortcut icon" href="assets/img/favicon.ico">
+</head>
+
+   <body>
+    <header class="header">
+        <div class="wrapper wrapper--header">
+            <div class="header__logo">
+                <img src="assets/svg/header_logo.svg" alt="header-logo">
+                <h1 class="header__title">GartenLaube</h1>
+            </div>
+            <nav>
+                <ul class="header__nav header__nav--header">
+                    <li>
+                        <a class="nav__item" href="assets/img/Torte.jpg">Besuchen</a>
+                    </li>
+                    <li >
+                        <a class="nav__item" href="assets/img/guests.jpg">Entdecken</a>
+                    </li>
+                    <li>
+                        <a class="nav__item" href="assets/img/Ansprechpartner.jpg">Kontakte</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger__item">Menu</span>
+                <span class="burger__item">Menu</span>
+                <span class="burger__item">Menu</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section id="welcome" class="welcome">
+            <aside class="side__menu">
+                <div class="side__menu-wrapper">
+                    <ul class="header__nav header__nav--side">
+                        <li>
+                            <a class="nav__item nav__item--side" href="#visiting">Besuchen <img src="assets/svg/arrow-side.svg" alt="arrow"></a>
+                        </li>
+                        <li >
+                            <a class="nav__item nav__item--side" href="#explore">Entdecken <img src="assets/svg/arrow-side.svg" alt="arrow"></a>
+                        </li>
+
+                        <li>
+                            <a class="nav__item nav__item--side" href="#contacts">Kontakte <img src="assets/svg/arrow-side.svg" alt="arrow"></a>
+                        </li>
+                    </ul>
+                    <div class="side__photos">
+                        <img src="assets/img/image15.webp" alt="photo">
+                        <img src="assets/img/image16.webp" alt="photo">
+                        <img src="assets/img/image17.webp" alt="photo">
+                    </div>
+                    <span class="side__border"></span>
+                    <ul class="footer__social footer__social--side">
+                        <li>
+                            <a class="social__link" target="_blank" href="https://www.youtube.com/user/louvre"><img class="social__icon" src="assets/svg/social-tube.svg" alt="youtube"></a>
+                        </li>
+                        <li>
+                            <a class="social__link" target="_blank" href="https://www.instagram.com/museelouvre/"><img class="social__icon" src="assets/svg/social-inst.svg" alt="inst"></a>
+                        </li>
+                        <li>
+                            <a class="social__link" target="_blank" href="https://www.facebook.com/museedulouvre"><img class="social__icon" src="assets/svg/social-fb.svg" alt="fb"></a>
+                        </li>
+                        <li>
+                            <a class="social__link" target="_blank" href="https://twitter.com/museelouvre"><img class="social__icon" src="assets/svg/social-pin.svg" alt="twitter"></a>
+                        </li>
+                        <li>
+                            <a class="social__link" target="_blank" href="https://www.pinterest.fr/museedulouvre/"><img class="social__icon" src="assets/svg/social-twitter.svg" alt="pin"></a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="wrapper wrapper--welcome">
+                <div class="welcome__inner">
+                    <h2 class="title title--welcome">Herzlich Willkommen <br> zur GartenLaube</h2>
+                    <h4 class="welcome__subtitle">Durch den Garten zur Laube</h4>
+                    <a class="welcome__btn" target="_blank" href="tours/tour1.html">Entdecke mein Grundstück</a>
+                </div>
+                <div class="welcome__slider">
+                    <div class="welcome__shadow"></div>
+                    <div class="welcome__slider-line">
+                        <img src="assets/img/welcome-slider/1.webp" alt="1">
+                        <img src="assets/img/welcome-slider/2.webp" alt="2">
+                        <img src="assets/img/welcome-slider/3.webp" alt="3">
+                        <img src="assets/img/welcome-slider/4.webp" alt="4">
+                        <img src="assets/img/welcome-slider/5.webp" alt="5">
+                    </div>
+                </div>
+                <div class="welcome__slider-controls">
+                    <div class="controls__num">
+                        <span class="num__item">01</span><span>|</span><span>05</span>
+                    </div>
+                    <div class="controls__btns">
+                        <button class="btns__item active"></button>
+                        <button class="btns__item"></button>
+                        <button class="btns__item"></button>
+                        <button class="btns__item"></button>
+                        <button class="btns__item"></button>
+                    </div>
+                    <div class="controls__arrows">
+                        <img id="welcome__prev" class="arrows__item" src="assets/svg/←.svg" alt="<">
+                        <img id="welcome__next" class="arrows__item" src="assets/svg/←.svg" alt=">">
+                    </div>
+                </div>
+            </div>
+        </section>
+       </main>
+<script src="assets/video.js"></script>
+<script src="assets/gallery.js"></script>
+<script src="assets/welcome.js"></script>
+<script src="assets/tickets.js"></script>
+<script src="assets/burger-menu.js"></script>
+<script src="assets/explore.js"></script>
+<script src="https://kit.fontawesome.com/0d01f051e8.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
